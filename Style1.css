@@ -1,0 +1,19 @@
+h1 {
+    color: #FF1493;
+    font-weight: bold;
+    display: block;
+    font-size: 35px;
+}
+h2 {
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+}
+h4 {
+    color: #FF1493;
+    font-size: 17px;
+
+}
+dt {
+    font-weight: bold;
+}

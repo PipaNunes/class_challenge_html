@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Cartao WTF</title>
+</head>
+<body>
+    <a href="https://www.wtf.pt" target="_blank">
+        <img src="./img/logo.jpeg" height="80px" width="400px">
+    </a>
+        <br>
+        <a href="tarifarios.html">Tarifários</a>
+        <a href="apps.html">Apps</a>
+        <a href="cinema.html">Cinema</a>
+        <h1>Adesão ao Cartão WTF</h1>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="nome" maxlength="100" placeholder="Nome Completo">
+                <br>
+                <p>Sexo:
+                    <input type="radio" name="hm" value="masculino"checked>Masculino
+                    <input type="radio" name="hm" value="feminino">Feminino
+                    <input type="radio" name="hm" value="outro">Outro
+                  </p>
+                  <p> Data de Nascimento:
+                      <input type="date" name="nascimento">
+                </p>
+                <p>Estado Civil:
+                    <select name="estado_civil" id="estado_civil">
+                        <option value disabled selected>Escolha uma opção</option>
+                        <option value="solteiro">Solteiro</option>
+                        <option value="casado">Casado</option>
+                        <option value="divorciado">Divorciado</option>
+                        <option value="viuvo">Viúvo</option>
+                      </select>
+                Número de Filhos:
+                <input type="number" name="filhos" id="filhos" min="0" max="5">
+                </p>
+    </fieldset>
+<br>
+<br>
+<fieldset>
+    <legend>Contactos:</legend>
+    <p>Código Postal: 
+        <input type="number" size="4" min="1000" placeholder="0000">
+        -
+        <input type="number" size="3" min="000" max="999" placeholder="000">
+
+    </p>
+    <p>Morada:</p>
+        <textarea name="morda" id="morada" cols="106" rows="5"></textarea>
+    <br>
+    <p>Email:
+        <input type="email" name="email" placeholder="ex:alguem@exemplo.com">
+    </p>
+    <p>Password:
+        <input type="password" name="password">
+    </p>
+</fieldset>
+<br>
+<div style="text-align: center;">
+<i>Pretende ser contactado através de:</i>
+<input type="checkbox" name="email">Email
+<input type="checkbox" name="telemóvel">Telemóvel
+<input type="checkbox" name="correio">Correio
+</div>
+<br>
+<div style="text-align: center;">
+<button type="reset">Limpar</button>
+<button type="submit">Confirmar</button>
+</div>
+</form>    
+</body>
+</html>
